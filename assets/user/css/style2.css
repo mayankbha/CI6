@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document by snnsun */
+/*Font Included*/
+
+@font-face {
+font-family: 'PTSansCaptionRegular';
+src: url('../fonts/ptc55f.ttf');
+
+font-style: normal;
+}
+
+#font-pt {font-family: 'PTSansCaptionRegular';}
+
+.navbar-default {background: none repeat scroll 0 0 #0e4084; color:white;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {position:inherit!important; border:0!important;};
+.navbar {margin-bottom: 0px!important;}
+.navbar-brand {padding:0px;}
+#border {border:solid}
+.top-nav-align{   margin-top: 8px;
+text-align: center;}
+.inner-bg{background:url('../img/bottom-img.jpg') no-repeat   ;  
+
+
+height: 395px;
+
+width: 100%;
+
+
+
+background-size: 100%; 
+
+
+
+
+
+}
+
+
+.logout-btn-top {
+background: linear-gradient(to bottom, #fcf52c 0%, #fcf52c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+border-radius:21px;
+box-shadow: 0 0 6px -3px rgba(0, 0, 0, 0.75);
+color: #000000;
+font-size: 15px;
+border:none !important;
+padding: 4px 15px;
+
+width: 83px;
+}
+
+#v-btm-size { width:212px;}
+.v-upload-btn {
+background: linear-gradient(to bottom, #FCF52C 0%, #FCF52C 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+border: 2px solid #C8C108;
+border-radius: 5px;
+color: #000000;
+font-family: 'PTSansCaptionRegular';
+font-size: 22px;
+font-weight: bold;
+padding: 4px;
+width: 87%;
+}
+
+
+
+
+
+
+
+
+.cp-btn-top {
+background: linear-gradient(to bottom, #4592F7 0%, #216FD6 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+border-radius: 17px;
+box-shadow: 0 0 6px -3px rgba(0, 0, 0, 0.75);
+color: #FFFFFF;
+font-size: 14px;
+border:none !important;
+
+width: 207px;
+}
+.v-cus-btm-icon {
+}
+.v-cus-btm-icon {
+padding: 0;
+
+width: 20.8%;
+}
+.v-cus-btm-icon-arrow1{position: relative;   right: -9px;    top: 50px;}
+.v-cus-btm-icon-arrow2{position: relative;    right: 9px;    top: 50px;}
+
+.v-support-btn {
+background: none repeat scroll 0 0 #1D5AAB;
+border: medium none;
+color: #FFFFFF;
+height: 49px;
+margin-top: -7px;
+}
+.v-support-btn :hover { background:#0099FF!important;}
+
+
+.v-inner-area {margin-bottom: 0px;
+background-image: url(../img/bg.jpg);
+background-position: 0% 25%;
+background-size: cover;
+background-repeat: no-repeat;
+height: auto;}
+
+.v-form-fether1 {
+margin: 0 auto;
+background: rgba(239, 245, 254, 0.9);}
+
+.v-form-fether2 {
+
+
+background: rgba(255, 255, 255, 0.8);   
+
+
+overflow: hidden;}
+
+
+.v-form-title  { font-size: 16px; }
+.v-form-inner {border-top: 5px solid #4791F4;  padding: 1%;}
+
+.form-horizontal-cus-label{width:30%;}
+
+.form-horizontal-input { 
+width: 86%;
+} 
+.navbar-header { background:#0E4084;}
+.icon-bar { background-color: #FFFFFF;}
+
+.nav > li > a:hover, .nav > li > a:focus {
+background-color: #4791F4; color:#FFFFFF;
+text-decoration: none;
+}
+
+
+.form-horizontal .control-label { text-align:left!important;  font-size: 13px;  font-weight: normal;}
+.v-form-group{
+margin-left: 0px!important;
+margin-right: 0px!important; }
+
+
+/*MEAL PHOTO*/
+.m-inner-area {margin-bottom: 0px;
+background-image: url(../img/bg-meal.jpg);
+background-position: 0% 25%;
+background-size: cover;
+background-repeat: no-repeat;
+height: auto;}
+
+.m-form-horizontal-input { 
+
+}
+/*Journal*/
+.j-inner-area {margin-bottom: 0px;
+background-image: url(../img/bg-journal.jpg);
+background-position: 0% 25%;
+background-size: cover;
+background-repeat: no-repeat;
+height: auto;}
+
+.j-week-name {
+width: 13.8%; 
+background:#e1eff9; 
+border:solid #aed0ea 1px ;  
+}
+.j-week-col {
+border: 1px solid #DDDDDD;
+    height: 86px;
+    width: 13.8%; text-align:right;  padding-right: 0px!important; padding-left: 0px!important;
+}
+.j-week-col-top { padding-right: 0px!important; padding-left: 0px!important;}
+
+
+.j-cal-area{ margin-left: 8px; height: 36px;}
+.j-week-col-date {}
+.j-week-col-date-gray{ color:#a6a6a6;}
+.j-week-col-bgyellow{ background:#ffef8f; font-family: 'PTSansCaptionRegular';}
+.j-week-col-titlebox{background:#0e4084;  border-radius: 3px; color:white;}
+.j-week-title { font-weight:bold; font-size: 20px;}
+
+/*Meal Planner*/
+.meal-p-j-inner-area {margin-bottom: 0px;
+background-image: url(../img/bg-meal-j.jpg);
+background-position: 0% 25%;
+background-size: cover;
+background-repeat: no-repeat;
+height: auto;}
+/*Media Area*/
+@media (min-width:1200px){ 
+nav.collapse.navbar-collapse.bs-navbar-collapse {
+display:none!important;
+}
+
+
+
+}
+@media (min-width:320px) and (max-width:991px){
+.j-cal-area{ margin-left: 2px;  margin-right: -9px;} .j-cal-area{ height: auto;}
+.j-week-col {}
+
+}
+
+
+
+
